@@ -1,12 +1,11 @@
 {
   "version": "4",
   "specifiers": {
-    "npm:@apollo/server@4.1": "4.1.1_graphql@16.6.0",
-    "npm:@apollo/server@^4.1.0": "4.1.1_graphql@16.6.0",
-    "npm:graphql@16.6": "16.6.0"
+    "npm:@apollo/server@4.1": "4.1.1_graphql@16.9.0",
+    "npm:@apollo/server@^4.1.0": "4.11.0_graphql@16.9.0"
   },
   "npm": {
-    "@apollo/cache-control-types@1.0.3_graphql@16.6.0": {
+    "@apollo/cache-control-types@1.0.3_graphql@16.9.0": {
       "integrity": "sha512-F17/vCp7QVwom9eG7ToauIKdAxpSoadsJnqIfyryLFSkLSOEqu+eC5Z3N8OXcUVStuOMcNHlyraRsA6rRICu4g==",
       "dependencies": [
         "graphql"
@@ -29,7 +28,7 @@
         "long"
       ]
     },
-    "@apollo/server-gateway-interface@1.1.1_graphql@16.6.0": {
+    "@apollo/server-gateway-interface@1.1.1_graphql@16.9.0": {
       "integrity": "sha512-pGwCl/po6+rxRmDMFgozKQo2pbsSwE91TpsDBAOgf74CRDPXHHtM88wbwjab0wMMZh95QfR45GGyDIdhY24bkQ==",
       "dependencies": [
         "@apollo/usage-reporting-protobuf",
@@ -39,7 +38,7 @@
         "graphql"
       ]
     },
-    "@apollo/server@4.1.1_graphql@16.6.0": {
+    "@apollo/server@4.1.1_graphql@16.9.0": {
       "integrity": "sha512-YD4LktN4s4biNP6CzJ6vl+NCeeoAX5mVpwfl1oyPHXRpjJpgitGmTlkbv3U/pzBweZd3rMEEz30hex/ezsYKpg==",
       "dependencies": [
         "@apollo/cache-control-types",
@@ -50,7 +49,7 @@
         "@apollo/utils.isnodelike@1.1.0",
         "@apollo/utils.keyvaluecache@1.0.2",
         "@apollo/utils.logger@1.0.1",
-        "@apollo/utils.usagereporting@1.0.1_graphql@16.6.0",
+        "@apollo/utils.usagereporting@1.0.1_graphql@16.9.0",
         "@apollo/utils.withrequired@1.0.1",
         "@graphql-tools/schema",
         "@josephg/resolvable",
@@ -71,7 +70,7 @@
         "whatwg-mimetype"
       ]
     },
-    "@apollo/server@4.11.0_graphql@16.6.0": {
+    "@apollo/server@4.11.0_graphql@16.9.0": {
       "integrity": "sha512-SWDvbbs0wl2zYhKG6aGLxwTJ72xpqp0awb2lotNpfezd9VcAvzaUizzKQqocephin2uMoaA8MguoyBmgtPzNWw==",
       "dependencies": [
         "@apollo/cache-control-types",
@@ -82,7 +81,7 @@
         "@apollo/utils.isnodelike@2.0.1",
         "@apollo/utils.keyvaluecache@2.1.1",
         "@apollo/utils.logger@2.0.1",
-        "@apollo/utils.usagereporting@2.1.0_graphql@16.6.0",
+        "@apollo/utils.usagereporting@2.1.0_graphql@16.9.0",
         "@apollo/utils.withrequired@2.0.1",
         "@graphql-tools/schema",
         "@types/express",
@@ -121,13 +120,13 @@
         "sha.js"
       ]
     },
-    "@apollo/utils.dropunuseddefinitions@1.1.0_graphql@16.6.0": {
+    "@apollo/utils.dropunuseddefinitions@1.1.0_graphql@16.9.0": {
       "integrity": "sha512-jU1XjMr6ec9pPoL+BFWzEPW7VHHulVdGKMkPAMiCigpVIT11VmCbnij0bWob8uS3ODJ65tZLYKAh/55vLw2rbg==",
       "dependencies": [
         "graphql"
       ]
     },
-    "@apollo/utils.dropunuseddefinitions@2.0.1_graphql@16.6.0": {
+    "@apollo/utils.dropunuseddefinitions@2.0.1_graphql@16.9.0": {
       "integrity": "sha512-EsPIBqsSt2BwDsv8Wu76LK5R1KtsVkNoO4b0M5aK0hx+dGg9xJXuqlr7Fo34Dl+y83jmzn+UvEW+t1/GP2melA==",
       "dependencies": [
         "graphql"
@@ -165,77 +164,77 @@
     "@apollo/utils.logger@2.0.1": {
       "integrity": "sha512-YuplwLHaHf1oviidB7MxnCXAdHp3IqYV8n0momZ3JfLniae92eYqMIx+j5qJFX6WKJPs6q7bczmV4lXIsTu5Pg=="
     },
-    "@apollo/utils.printwithreducedwhitespace@1.1.0_graphql@16.6.0": {
+    "@apollo/utils.printwithreducedwhitespace@1.1.0_graphql@16.9.0": {
       "integrity": "sha512-GfFSkAv3n1toDZ4V6u2d7L4xMwLA+lv+6hqXicMN9KELSJ9yy9RzuEXaX73c/Ry+GzRsBy/fdSUGayGqdHfT2Q==",
       "dependencies": [
         "graphql"
       ]
     },
-    "@apollo/utils.printwithreducedwhitespace@2.0.1_graphql@16.6.0": {
+    "@apollo/utils.printwithreducedwhitespace@2.0.1_graphql@16.9.0": {
       "integrity": "sha512-9M4LUXV/fQBh8vZWlLvb/HyyhjJ77/I5ZKu+NBWV/BmYGyRmoEP9EVAy7LCVoY3t8BDcyCAGfxJaLFCSuQkPUg==",
       "dependencies": [
         "graphql"
       ]
     },
-    "@apollo/utils.removealiases@1.0.0_graphql@16.6.0": {
+    "@apollo/utils.removealiases@1.0.0_graphql@16.9.0": {
       "integrity": "sha512-6cM8sEOJW2LaGjL/0vHV0GtRaSekrPQR4DiywaApQlL9EdROASZU5PsQibe2MWeZCOhNrPRuHh4wDMwPsWTn8A==",
       "dependencies": [
         "graphql"
       ]
     },
-    "@apollo/utils.removealiases@2.0.1_graphql@16.6.0": {
+    "@apollo/utils.removealiases@2.0.1_graphql@16.9.0": {
       "integrity": "sha512-0joRc2HBO4u594Op1nev+mUF6yRnxoUH64xw8x3bX7n8QBDYdeYgY4tF0vJReTy+zdn2xv6fMsquATSgC722FA==",
       "dependencies": [
         "graphql"
       ]
     },
-    "@apollo/utils.sortast@1.1.0_graphql@16.6.0": {
+    "@apollo/utils.sortast@1.1.0_graphql@16.9.0": {
       "integrity": "sha512-VPlTsmUnOwzPK5yGZENN069y6uUHgeiSlpEhRnLFYwYNoJHsuJq2vXVwIaSmts015WTPa2fpz1inkLYByeuRQA==",
       "dependencies": [
         "graphql",
         "lodash.sortby"
       ]
     },
-    "@apollo/utils.sortast@2.0.1_graphql@16.6.0": {
+    "@apollo/utils.sortast@2.0.1_graphql@16.9.0": {
       "integrity": "sha512-eciIavsWpJ09za1pn37wpsCGrQNXUhM0TktnZmHwO+Zy9O4fu/WdB4+5BvVhFiZYOXvfjzJUcc+hsIV8RUOtMw==",
       "dependencies": [
         "graphql",
         "lodash.sortby"
       ]
     },
-    "@apollo/utils.stripsensitiveliterals@1.2.0_graphql@16.6.0": {
+    "@apollo/utils.stripsensitiveliterals@1.2.0_graphql@16.9.0": {
       "integrity": "sha512-E41rDUzkz/cdikM5147d8nfCFVKovXxKBcjvLEQ7bjZm/cg9zEcXvS6vFY8ugTubI3fn6zoqo0CyU8zT+BGP9w==",
       "dependencies": [
         "graphql"
       ]
     },
-    "@apollo/utils.stripsensitiveliterals@2.0.1_graphql@16.6.0": {
+    "@apollo/utils.stripsensitiveliterals@2.0.1_graphql@16.9.0": {
       "integrity": "sha512-QJs7HtzXS/JIPMKWimFnUMK7VjkGQTzqD9bKD1h3iuPAqLsxd0mUNVbkYOPTsDhUKgcvUOfOqOJWYohAKMvcSA==",
       "dependencies": [
         "graphql"
       ]
     },
-    "@apollo/utils.usagereporting@1.0.1_graphql@16.6.0": {
+    "@apollo/utils.usagereporting@1.0.1_graphql@16.9.0": {
       "integrity": "sha512-6dk+0hZlnDbahDBB2mP/PZ5ybrtCJdLMbeNJD+TJpKyZmSY6bA3SjI8Cr2EM9QA+AdziywuWg+SgbWUF3/zQqQ==",
       "dependencies": [
         "@apollo/usage-reporting-protobuf",
-        "@apollo/utils.dropunuseddefinitions@1.1.0_graphql@16.6.0",
-        "@apollo/utils.printwithreducedwhitespace@1.1.0_graphql@16.6.0",
-        "@apollo/utils.removealiases@1.0.0_graphql@16.6.0",
-        "@apollo/utils.sortast@1.1.0_graphql@16.6.0",
-        "@apollo/utils.stripsensitiveliterals@1.2.0_graphql@16.6.0",
+        "@apollo/utils.dropunuseddefinitions@1.1.0_graphql@16.9.0",
+        "@apollo/utils.printwithreducedwhitespace@1.1.0_graphql@16.9.0",
+        "@apollo/utils.removealiases@1.0.0_graphql@16.9.0",
+        "@apollo/utils.sortast@1.1.0_graphql@16.9.0",
+        "@apollo/utils.stripsensitiveliterals@1.2.0_graphql@16.9.0",
         "graphql"
       ]
     },
-    "@apollo/utils.usagereporting@2.1.0_graphql@16.6.0": {
+    "@apollo/utils.usagereporting@2.1.0_graphql@16.9.0": {
       "integrity": "sha512-LPSlBrn+S17oBy5eWkrRSGb98sWmnEzo3DPTZgp8IQc8sJe0prDgDuppGq4NeQlpoqEHz0hQeYHAOA0Z3aQsxQ==",
       "dependencies": [
         "@apollo/usage-reporting-protobuf",
-        "@apollo/utils.dropunuseddefinitions@2.0.1_graphql@16.6.0",
-        "@apollo/utils.printwithreducedwhitespace@2.0.1_graphql@16.6.0",
-        "@apollo/utils.removealiases@2.0.1_graphql@16.6.0",
-        "@apollo/utils.sortast@2.0.1_graphql@16.6.0",
-        "@apollo/utils.stripsensitiveliterals@2.0.1_graphql@16.6.0",
+        "@apollo/utils.dropunuseddefinitions@2.0.1_graphql@16.9.0",
+        "@apollo/utils.printwithreducedwhitespace@2.0.1_graphql@16.9.0",
+        "@apollo/utils.removealiases@2.0.1_graphql@16.9.0",
+        "@apollo/utils.sortast@2.0.1_graphql@16.9.0",
+        "@apollo/utils.stripsensitiveliterals@2.0.1_graphql@16.9.0",
         "graphql"
       ]
     },
@@ -245,7 +244,7 @@
     "@apollo/utils.withrequired@2.0.1": {
       "integrity": "sha512-YBDiuAX9i1lLc6GeTy1m7DGLFn/gMnvXqlalOIMjM7DeOgIacEjjfwPqb0M1CQ2v11HhR15d1NmxJoRCfrNqcA=="
     },
-    "@graphql-tools/merge@8.4.2_graphql@16.6.0": {
+    "@graphql-tools/merge@8.4.2_graphql@16.9.0": {
       "integrity": "sha512-XbrHAaj8yDuINph+sAfuq3QCZ/tKblrTLOpirK0+CAgNlZUCHs0Fa+xtMUURgwCVThLle1AF7svJCxFizygLsw==",
       "dependencies": [
         "@graphql-tools/utils",
@@ -253,7 +252,7 @@
         "tslib"
       ]
     },
-    "@graphql-tools/schema@9.0.19_graphql@16.6.0": {
+    "@graphql-tools/schema@9.0.19_graphql@16.9.0": {
       "integrity": "sha512-oBRPoNBtCkk0zbUsyP4GaIzCt8C0aCI4ycIRUL67KK5pOHljKLBBtGT+Jr6hkzA74C8Gco8bpZPe7aWFjiaK2w==",
       "dependencies": [
         "@graphql-tools/merge",
@@ -263,7 +262,7 @@
         "value-or-promise"
       ]
     },
-    "@graphql-tools/utils@9.2.1_graphql@16.6.0": {
+    "@graphql-tools/utils@9.2.1_graphql@16.9.0": {
       "integrity": "sha512-WUw506Ql6xzmOORlriNrD6Ugx+HjVgYxt9KCXD9mHAak+eaXSwuGGPyE60hy9xaDEoXKBsG7SkG69ybitaVl6A==",
       "dependencies": [
         "@graphql-typed-document-node/core",
@@ -271,7 +270,7 @@
         "tslib"
       ]
     },
-    "@graphql-typed-document-node/core@3.2.0_graphql@16.6.0": {
+    "@graphql-typed-document-node/core@3.2.0_graphql@16.9.0": {
       "integrity": "sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==",
       "dependencies": [
         "graphql"
@@ -593,8 +592,8 @@
         "get-intrinsic"
       ]
     },
-    "graphql@16.6.0": {
-      "integrity": "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw=="
+    "graphql@16.9.0": {
+      "integrity": "sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw=="
     },
     "has-property-descriptors@1.0.2": {
       "integrity": "sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==",
