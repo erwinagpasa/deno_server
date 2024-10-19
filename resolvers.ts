@@ -9,10 +9,16 @@ const dinosaurs = [
   },
 ];
 
+interface ArgsType {
+  name: string;
+  description: string;
+}
+
+
 export const resolvers = {
   Query: {
     dinosaurs: () => dinosaurs,
-    dinosaur: (_: any, args: any) => {
+    dinosaur: (_: ArgsType, args: ArgsType) => {
       return dinosaurs.find((dinosaur) => dinosaur.name === args.name);
     },
   },
